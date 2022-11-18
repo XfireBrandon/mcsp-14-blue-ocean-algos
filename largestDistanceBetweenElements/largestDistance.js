@@ -13,7 +13,7 @@ function largestDistance(arr) {
         current = newArr[i]
         currentDistance = next - current
         maxDistance = Math.max(currentDistance, maxDistance)
-    }
+     }
     return maxDistance
 }
 
